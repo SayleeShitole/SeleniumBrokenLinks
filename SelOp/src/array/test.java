@@ -10,7 +10,7 @@ public class test {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String s="saylee";
+		String s="Prashant";
 		
 		HashSet<Character> set=new HashSet<Character>();
 		
