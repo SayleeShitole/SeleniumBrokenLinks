@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+  <classes>
+  		<class name="akshayp.Day3"/>
+  </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test">
+  
+  <classes>
+  		<class name="akshayp.Day3"/>
+  </classes>
+  </test> <!-- Test -->
+  
+ <test thread-count="5" name="Test">
+  <classes>
+  		<class name="akshayp.Day4">
+  			<methods>
+  				<exclude name="mobilelgichomeloan"></exclude>
+  			</methods>
+  			<methods>
+  				<include name="apilgichomeloan"></include>
+  			</methods>
+  		</class>
+  	</classes>
+  </test> <!-- Test -->
+  
+  <test name="Mobile">
+  		<classes>
+  			<class name="akshayp.Day4">
+  					<methods>
+  						<exclude name="mobile.*"></exclude>
+  					</methods>
+  			</class>
+  		</classes>
+  </test>
+  
+  <test name="car loan">
+  	<packages>
+  		<package name="Saylee"></package>
+  	</packages>
+  
+  </test>
+  
+</suite> <!-- Suite -->
